@@ -6,3 +6,8 @@ description: >-
 
 # References
 
+
+
+{% embed url="https://ieeexplore.ieee.org/abstract/document/9425926" %}
+\[1] Automatic Detection of Five API Documentation Smells: Practitioners’ Perspectives
+{% endembed %}

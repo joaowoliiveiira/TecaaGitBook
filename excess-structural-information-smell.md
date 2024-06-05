@@ -8,13 +8,13 @@ description: >-
 
 ### What is "Excess Structural Information"
 
-Excess Structural Information (ESI) is a documentation smell that occurs when a documentation unit, such as a method description, contains an overwhelming amount of structural syntax or information. This excessive detail can include numerous class and package names, detailed listings of subclasses, and other structural elements that are not directly relevant to the understanding or usage of the documented entity.
+Excess Structural Information (ESI) is a documentation smell that occurs when a documentation unit, such as a method description, contains an overwhelming amount of structural syntax or information. This excessive detail can include numerous class and package names, detailed listings of subclasses, and other structural elements that are not directly relevant to the understanding or usage of the documented entity. [\[1\]](references.md)
 
-For instance, consider the Javadoc of the `java.lang.Object` class in Java. The documentation for this class lists all of its hundreds of subclasses. While this level of detail might seem thorough, it often proves unnecessary and can overwhelm the reader, making it harder to extract the essential information needed to understand and use the class effectively.
+For instance, consider the Javadoc of the `java.lang.Object` class in Java. The documentation for this class lists all of its hundreds of subclasses. While this level of detail might seem thorough, it often proves unnecessary and can overwhelm the reader, making it harder to extract the essential information needed to understand and use the class effectively. [\[1\]](references.md)
 
 
 
-<figure><img src=".gitbook/assets/Example-of-Excess-Structural-Information.png" alt=""><figcaption><p>Example of Excess Structural Information</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Example-of-Excess-Structural-Information.png" alt=""><figcaption><p>Example of Excess Structural Information <a href="references.md">[1]</a></p></figcaption></figure>
 
 Here in this figure, the documentation contains many structural details, highlighted with a red rectangle, that do not contribute to the purpose of understanding and using the underlying method. Such information overload can detract from the documentation's primary goal: to provide clear and concise guidance on using the method effectively.
 
